@@ -64,13 +64,13 @@ Nun können Sie einen neuen Flow anlegen, der aus drei Schritten besteht:
 2. Logger: Dieser Schritt ist optional und dient nur dazu, einige Informationen anzuzeigen, wenn der FTP Connector neue Dateien liest.
 3. HTTP Request: Hier senden wir den HTTP-Request an SIGNL4, um den Alarm zu senden.
 
-![Anypoint Flow](anypoint-flow.png)
+![Anypoint Flow](mulesoft-flow.png)
 
 3. Konfigurieren des HTTP Requests  
 
 Wir senden einen HTTP-Push-Request an SIGNL4, um einen Alarm auszulösen. Die URL ist Ihre SIGNL4-Web-Hook-URL einschließlich Ihres Team-Geheimnisses. Der content-type ist application/json und der Body ist der JSON-Payload. In unserem Fall übernehmen wir den Inhalt der Datei von unserem FTP-Server.
 
-![Anypoint HTTP Request](anypoint-http-request.png)
+![Anypoint HTTP Request](mulesoft-http-request.png)
 
 4. Testen Sie es  
 
