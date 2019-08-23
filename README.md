@@ -63,13 +63,13 @@ Now you can create a new flow consisting of three steps:
 2. Logger: This is optional and just to see some logging information when the FTP connected was reading new files.
 3. HTTP Request: Here we send the HTTP request to SIGNL4 in order to send the alert.
 
-![Anypoint Flow](anypoint-flow.png)
+![Anypoint Flow](mulesoft-flow.png)
 
 3. Configure the HTTP Request
 
 We send an HTTP Push request to SIGNL4 in order to trigger an alert. The URL is your SIGNL4 webhook URL including your team secret. The content-type is application/json and the Body is the JSON payload. In our case we take the content of the file from our FTP server.
 
-![Anypoint HTTP Request](anypoint-http-request.png)
+![Anypoint HTTP Request](mulesoft-http-request.png)
 
 4. Test It  
 
